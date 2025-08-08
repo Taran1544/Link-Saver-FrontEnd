@@ -70,4 +70,23 @@
 
 [data-theme="dark"] .login-container button:hover {
     background-color: #24b365;
+
+}
+
+
+@media (max-width: 480px) {
+    .login-container {
+        margin: 20px 12px;
+        padding: 16px;
+    }
+
+    .login-container h2 {
+        font-size: 1.25rem;
+    }
+
+    .login-container input,
+    .login-container button {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
 }
