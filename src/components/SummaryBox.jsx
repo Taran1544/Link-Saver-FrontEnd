@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/SummaryBox.css';
+import '../styles/summaryBox.css';
 
 const SummaryBox = ({ title, url, favicon, summary, onDelete }) => {
   const [isExpanded, setIsExpanded] = useState(false);
