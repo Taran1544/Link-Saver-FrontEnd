@@ -92,9 +92,13 @@ button:hover {
   color: var(--error-color);
 }
 
-@media (max-width:768px){
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
   .app {
-  text-align: center;
-  padding: 0rem;
-}
+    padding: 0.5rem;
+  }
 }
