@@ -79,6 +79,30 @@
   background-color: #5468ff;
 }
 
+
+@media (max-width: 480px) {
+  .signup-container {
+    margin: 24px 16px;
+    padding: 16px;
+  }
+
+  .signup-container h2 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+  }
+
+  .signup-container input {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .signup-container button {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
+
 [data-theme="dark"] .signup-container button:hover {
   background-color: #4254db;
 }
+
