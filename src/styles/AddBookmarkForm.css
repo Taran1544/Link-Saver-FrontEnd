@@ -1,0 +1,81 @@
+:root {
+  --form-bg: #ffffff;
+  --form-shadow: rgba(0, 0, 0, 0.06);
+  --input-bg: #f9f9f9;
+  --input-border: #d0d0d0;
+  --input-focus-border: #007bff;
+  --input-focus-shadow: rgba(0, 123, 255, 0.3);
+  --button-bg: #007bff;
+  --button-hover-bg: #0056b3;
+  --button-color: #ffffff;
+}
+
+[data-theme='light'] {
+  --form-bg: #ffffff;
+  --form-shadow: rgba(0, 0, 0, 0.06);
+  --input-bg: #f9f9f9;
+  --input-border: #d0d0d0;
+  --input-focus-border: #007bff;
+  --input-focus-shadow: rgba(0, 123, 255, 0.3);
+  --button-bg: #007bff;
+  --button-hover-bg: #0056b3;
+  --button-color: #ffffff;
+}
+
+[data-theme='dark'] {
+  --form-bg: #1e1e1e;
+  --form-shadow: rgba(255, 255, 255, 0.04);
+  --input-bg: #2a2a2a;
+  --input-border: #444;
+  --input-focus-border: #339aff;
+  --input-focus-shadow: rgba(51, 154, 255, 0.4);
+  --button-bg: #339aff;
+  --button-hover-bg: #1d7edb;
+  --button-color: #ffffff;
+}
+
+
+.add-bookmark-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px;
+  background-color: var(--form-bg);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px var(--form-shadow);
+  margin-bottom: 24px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-bookmark-form input {
+  flex: 1;
+  min-width: 220px;
+  padding: 12px 14px;
+  font-size: 15px;
+  border: 1px solid var(--input-border);
+  border-radius: 10px;
+  background-color: var(--input-bg);
+  color: inherit;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+}
+
+.add-bookmark-form input:focus {
+  border-color: var(--input-focus-border);
+  box-shadow: 0 0 0 3px var(--input-focus-shadow);
+}
+
+.add-bookmark-form button {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  padding: 12px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-bookmark-form button:hover {
+  background-color: var(--button-hover-bg);
+}

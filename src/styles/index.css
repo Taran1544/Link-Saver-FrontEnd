@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: black;
+  --primary-accent: #1abc9c;
+  --navbar-bg: #f9f9fb;
+  --card-bg: #f0f0f5;
+}
+
+[data-theme='dark'] {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --primary-accent: #1abc9c;
+  --navbar-bg: #1e1e2f;
+  --card-bg: #2a2a3c;
+}
