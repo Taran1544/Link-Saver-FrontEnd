@@ -74,19 +74,30 @@
 }
 
 
-@media (max-width: 480px) {
-    .login-container {
-        margin: 20px 12px;
-        padding: 16px;
-    }
+@media (max-width: 768px) {
+ 
+  .login-container {
+    margin: 20px auto;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
 
-    .login-container h2 {
-        font-size: 1.25rem;
-    }
+  .login-container h2 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+  }
 
-    .login-container input,
-    .login-container button {
-        font-size: 0.95rem;
-        padding: 10px;
-    }
+
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 0.95rem;
+  }
+
+  .login-container button {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
 }
