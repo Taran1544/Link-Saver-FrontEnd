@@ -91,3 +91,10 @@ button:hover {
 .error {
   color: var(--error-color);
 }
+
+@media (max-width:768px){
+  .app {
+  text-align: center;
+  padding: 0rem;
+}
+}
