@@ -36,6 +36,16 @@ A full-stack bookmarking app that allows users to save website links with option
 </p>
 
 ---
+## Time Spent
+
+- **Frontend Development:** ~3 hours  
+- **Backend Development:** ~5 hours  
+- **Database Setup & Integration:** ~30 min  
+- **Testing & Debugging:** ~2 hours  
+- **Documentation & README:** ~1.5 hour
+
+
+---
 
 ##  Setup Instructions
 
