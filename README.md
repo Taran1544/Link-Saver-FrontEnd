@@ -1,12 +1,56 @@
-# React + Vite
+# Link Saver
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack bookmarking app that allows users to save website links with optional summaries, built with React, Node.js, Express, and MongoDB.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Table of Contents
 
-## Expanding the ESLint configuration
+- [Tech Stack](#-tech-stack)  
+- [Screenshots](#-screenshots)  
+- [Setup Instructions](#-setup-instructions)  
+- [Usage](#-usage)  
+- [Time Spent](#-time-spent)  
+- [License](#-license)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+| Layer     | Technologies                                 |
+|-----------|----------------------------------------------|
+| Frontend  | React, CSS (custom styling), Axios           |
+| Backend   | Node.js, Express, MongoDB, Mongoose          |
+| Tools     | dotenv, CORS, React Router, Vite (frontend)  |
+
+---
+
+##  Screenshots
+
+
+<p align="center">
+  <img src="screenshots/signup.png" alt="Signup Form" width="300" />
+  <img src="screenshots/bookmarks.png" alt="Bookmarks List" width="300" />
+  <img src="screenshots/light-bookmarks.png" alt="Bookmarks List Light Theme" width="300" />
+  <img src="screenshots/login.png" alt="Bookmarks List" width="300" />
+</p>
+
+---
+
+##  Setup Instructions
+
+### Prerequisites
+
+- Node.js (v16+) and npm installed  
+- MongoDB Atlas account or local MongoDB setup  
+
+### Backend
+
+```bash
+cd backend
+cp .env.example .env
+# Update .env:
+# MONGO_URI=your_mongodb_connection_string
+# PORT=5000
+npm install
+npm run dev
